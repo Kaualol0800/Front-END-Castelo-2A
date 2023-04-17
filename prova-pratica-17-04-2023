@@ -1,0 +1,176 @@
+<!DOCTYPE html">
+<html lang="pt br">
+    <head>
+        <meta charset="UTF-8">
+        <title>prova-prática-11-04-2023</title>
+
+        
+        <style>
+            body { 
+            background-color: lightblue;
+
+            }
+
+        
+
+            table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 30px;
+            font-family: Arial, sans-serif;
+
+            }
+
+            table td, th {
+            text-align: left;
+            padding: 8px;
+            }
+
+            table th {
+            background-color: #1E90FF;
+            color: white;
+            font-weight: bold;
+            border-bottom: 3px solid #0000CD;
+            }
+
+            table tr:nth-child(even) {
+            background-color: #F0F8FF;
+            }
+
+            table tr:hover {
+            background-color: #87CEEB;
+            }
+
+            .image {
+            border: 2px solid black;
+            padding: 10px;
+            border-radius: 15px;
+            width: 400px;
+            
+            }
+
+            .paragraph b {
+            font-weight: bold;
+            }
+
+            .paragraph i {
+            font-style: italic;
+            }
+
+            .paragraph u {
+            text-decoration: underline;
+            }
+
+            .title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #1E90FF;
+            border-bottom: 2px solid #1E90FF;
+            margin-bottom: 10px;
+            text-align: center;
+            }
+
+            .subtitle {
+            font-size: 20px;
+            font-weight: bold;
+            color: #1E90FF;
+            border-bottom: 2px solid #1E90FF;
+            margin-bottom: 10px;
+            text-align: center;
+            }
+
+            .list {
+            list-style: none;
+            margin-left: 0;
+            padding-left: 0;
+            }
+
+            .list li:before {
+            content: "•";
+            color: #1E90FF;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+            }
+
+            .footer {
+            text-align: center;
+            color: #1E90FF;
+            margin-top: 30px;
+            font-weight: bold;
+            }
+
+            .text-justify {
+            text-align: justify;
+            }
+
+</style>
+
+<h1 class="title">As Profissões em TI</h1>
+
+<table>
+  <head>
+    <tr>
+      <th>Profissão</th>
+      <th>Descrição</th>
+      <th>Salário</th>
+      <th>Nível de Escolaridade</th>
+    </tr>
+  </head>
+  <body>
+    <tr>
+      <td>Desenvolvedor Web</td>
+      <td>Programa e desenvolve páginas web utilizando HTML, CSS e JavaScript.</td>
+      <td>R$ 6.000,00</td>
+      <td>Superior completo em TI ou áreas relacionadas.</td>
+    </tr>
+    <tr>
+      <td>Analista de Sistemas</td>
+      <td>Analisa e 
+        <li>Desenvolvedor Web</li>projeta sistemas de informação, documentando requisitos, dados e processos.</td>
+      <td>R$ 8.000,00</td>
+      <td>Superior completo em TI ou áreas relacionadas.</td>
+    </tr>
+    <tr>
+      <td>Arquiteto de Software</td>
+      <td>Define a arquitetura de software que será utilizada na construção de um sistema.</td>
+      <td>R$ 12.000,00</td>
+      <td>Superior completo em TI ou áreas relacionadas.</td>
+    </tr>
+    <tr>
+      <td>Gerente de Projeto</td>
+      <td>Coordena a equipe responsável pelo desenvolvimento de um sistema ou aplicativo.</td>
+      <td>R$ 15.000,00</td>
+      <td>Superior completo em TI ou áreas relacionadas.</td>
+    </tr>
+  </body>
+</table>
+
+            <h2 class="subtitle">Principais Profissões em TI</h2>
+
+
+<img src="/tmp/guest-woe20m/Documentos/Documentos" alt" As Profissões em TI " class="image">
+
+<div class="paragraph">
+  <p>As <b>profissões em TI</b> estão em constante evolução. A tecnologia avança a cada dia e, consequentemente, novas áreas de atuação são criadas. Os profissionais de TI precisam estar atualizados para atender às demandas do mercado.</p>
+  <p>Um <i>desenvolvedor web</i>, por exemplo, é um profissional que programa e desenvolve páginas web utilizando HTML, CSS e JavaScript. Já um <u>analista de sistemas</u> é responsável por analisar e projetar sistemas de informação, documentando requisitos, dados e processos.</p>
+  <p>Para ter sucesso em uma carreira em TI, é necessário ser proativo, criativo e estar sempre se atualizando. As empresas procuram profissionais com conhecimentos específicos e que possam agregar valor aos seus projetos.</p>
+  <p>Se você está pensando em seguir uma carreira em TI, é importante ter em mente que as <b>profissões em TI</b> exigem um alto nível de escolaridade. A maioria das áreas requer um diploma de ensino superior em TI ou áreas relacionadas.</p>
+</div>
+
+<h3 class="subtitle"> Profissões </h3>
+
+<ol>
+  <li>Desenvolvedor Web</li>
+  <li>Analista de Sistemas</li>
+  <li>Arquiteto de Software</li>
+  <li>Gerente de Projeto</li>
+</ol>
+
+<p class="footer">Kauã Corrêa de Paula</p>
+
+</html>
+
+
+
