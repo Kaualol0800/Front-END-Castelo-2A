@@ -1,0 +1,44 @@
+ body{
+    background-color: white;
+ }
+
+ header{
+
+    background-color: greenyellow;
+    padding: 20px;
+ }
+ 
+ #logo{
+    border-radius: 25px;
+    width: auto;
+ }
+ 
+ @font-face{
+    font-family: 'NanumGothic';
+    src: url('NanumGothic-Regular.ttf') format('truetype');
+
+
+ }
+
+ .titulo-principal{
+   position: absolute;
+   top: 10%;
+   left: 45%;
+   transform: translate(-10%, -50%);
+   font-size: 35px;
+   font-family: 'NanumGothic';
+   text-align: center;
+
+
+ }
+
+ main{
+   width: 940px;
+   margin: auto;
+
+
+   
+ }
+
+
+    
