@@ -1,0 +1,37 @@
+/*DROP*/
+
+DELETE FROM pessoa WHERE nome  = 'KAUA';
+
+/*create database loja;
+
+USE loja;
+*/
+
+/*selecione todos os registros da tabela nome_tabela*/
+SELECT * FROM  pessoa;
+
+truncate table pessoa;
+
+ALTER TABLE pessoa ADD CONSTRAINT codigo PRIMARY KEY (codigo);
+
+INSERT INTO pessoa(1, 'KAUA');
+
+/*selecione todos os registros da tabela nome_tabela*/
+SELECT * FROM  pessoa(1, 'KAUA')
+
+CREATE TABLE `endereco` (
+  `codigo` int DEFAULT NULL,
+  `rua` varchar(100) DEFAULT NULL,
+  `endereco` varchar(100) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `pessoa` (
+  `codigo` int DEFAULT NULL,
+  `nome` varchar(100) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `pessoa_endereco` (
+  `codigo` int DEFAULT NULL,
+  `fk_pessoa` int DEFAULT NULL,
+  `fk_endereco` int DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
