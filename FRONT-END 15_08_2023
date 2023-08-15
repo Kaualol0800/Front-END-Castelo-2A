@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>Gerente de Produtos</title>
+        <style></style>
+        <link rel="stylesheet" href="estilo css">
+    </head>
+    <body>
+    <div class="container">
+        <h1>Gerente de Produtos e Listagem</h1>
+        <form id="formProduto">
+            <label>Identificador</label>
+            <input type="number" id="Identificador" required>
+            <label>Nome do produto:</label>
+            <input type="text" id="produtoNome" required>
+            <label>Preço do Produto:</label>
+            <input type="number" id="produtoPreco"
+                             required step="0.01">
+            <button type="submit">Cadastrar</button>
+            
+        </form>
+        <hr>
+
+
+        <h2>Lista de produtos</h2>
+        <input type="text" id="buscar" placeholder="Buscar nome">
+        <ul id="produtoLista"></ul>
+
+    </div>
+        <script></script>
+        <script src="programa.js"></script>
+    </body>
+ </html>
+
+
+JAVA SCRIPT
+
+
+const formProdutop =
+       document.getElementById("formProduto");
+ const produtoLista =
+       document.getElementById("produtosLista");
+ formProduto.addEventLisstener('submit', adicionar);
+
+
+
+const produtos = []; // vetor
+
+
+function adicionar(){
+var produtoNome =
+
+    document.getElementById("produtoNome").value;
+
+var produtoPreco =
+
+    document.getElementById("produtoPreco").value;
+    
+    //casaV é um elemento do meu vetor
+
+    var casaV = {nome: proudutoNome, preco: produtoPreco};
+    produtos.push(casaV);
+    imprimirLista(); //funcao de imprimir no html
+    
+
+}
+
+function imprimirLista(){
+    produtoLista,innerHTML = ;
+    for(let i = 0; i < produtos.length; i++){
+        var elem = produtos[i];
+        var li = document.createElement('li');
+        li,innerHTML = `${elem.nome} - R$ ${elem.preco}`;
+        produtoLista.appendChild(li);
+
+    }
+    
+}  
+
+
