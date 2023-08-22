@@ -1,0 +1,17 @@
+FUNÇÕES E EVENTOS
+
+As ações são associadas aos eventos que são organizados em módulos ou blocos
+Para isso temos o conceito de modularização.
+
+
+MODULARIZAÇÃO
+
+A modularização permite a reutilização de trechos de programa que facilitam a leitura e futuras manuteções em seus sistemas.
+
+NOMENCLATURA
+
+As funções recebem também o nome de métodos,procedures e módulos.
+
+MODULARIZAÇÃO E FUNÇÕES 
+
+Digamos que temos que implementar um sistema para uma empresa que deve cadastrar os clientes funcionários e fornecedores.
